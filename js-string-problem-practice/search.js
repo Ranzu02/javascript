@@ -38,7 +38,7 @@ console.log(fileName2.endsWith(".mp3"));
 
 /* 
 Things i have learned in this vide:
-1. Check whether a keyword is exists in a string or not .includes("searchstring")
+1. Check whether a keyword is exists in a string or not Example:  .includes("searchstring")
 2. convert to lower or upper case .toLowerCase() and .toUpperCase()
 3. indexOf of an array. Example string.indexOf("partofstring")
 4. Starts with and Ends with. Example: string.startsWith("searchitem") and string.endsWith("searchitem")
