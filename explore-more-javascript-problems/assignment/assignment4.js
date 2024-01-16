@@ -5,7 +5,7 @@ function findAddress(address) {
         Object.assign(newAddress, address);
         // console.log(newAddress);
         const keys = Object.keys(newAddress);
-        var streetName = newAddress[keys[0]] || "__";
+        var streetName = newAddress["street"] || "__";  //putting the keys as arrays. another way is newAddress.street
         var houseName = newAddress[keys[1]] || "__";
         var societyName = newAddress[keys[2]] || "__";
         var addressOutput = streetName + "," + houseName + "," + societyName;
